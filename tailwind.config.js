@@ -17,7 +17,13 @@ module.exports = {
       },
       maxWidth: {
         'container': '1144px',
-      }
+      },
+       screens: {
+          'sm': '375px',
+          'sml': '667px',   
+          'md': '768px',   
+        },
+    
     },
   }
 }

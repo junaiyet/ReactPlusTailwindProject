@@ -2,7 +2,7 @@ import React from 'react'
 
 function Service() {
   return (
-   <section className='mt-7'>
+   <section className='mt-7 '>
     <div className='flex flex-wrap '>
         <div className="w-2/4 flex justify-end items-center ">
         <div>            
@@ -24,13 +24,7 @@ function Service() {
 
             </div>
         </div>  
-        <div className="w-2/4  " style={{background:"url(images/service1.png)"}}>
-            <div className="h-full w-full bg-darklight py-36 px-28">
-         <h3 className="font-pop font-bold text-4xl text-white"> Modern natural oil and gas refineries.</h3>
-         <a href="#" className='mt-5 font-pop font-semibold text-base text-white bg-primary inline-block border border-solid border-primary py-3 px-8 hover:bg-transparent hover:border-white ease-linear	duration-300 '>CONTACT</a>
-
-            </div>
-        </div>  
+ 
     </div>
    </section>
   )
